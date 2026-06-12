@@ -1,4 +1,4 @@
-CHOICE=$(zenity --list --title="Choose a Desktop" --column="Desktop Environments" "budgie" "cinnamon" "cosmic" "deepin" "enlightenment" "gnome" "gnome-flashback" "plasma" "plasma-mobile" "lxde" "lxqt" "mate" "pantheon" "phosh" "sugar" "xfce4")
+CHOICE=$(zenity --list --title="Choose a Desktop" --column="Desktop Environments" "budgie" "cinnamon" "cosmic" "deepin" "enlightment" "gnome" "gnome-flashback" "plasma" "plasma-mobile" "lxde" "lxqt" "mate" "pantheon" "phosh" "sugar" "xfce4")
     case $CHOICE in
         "budgie")
             sudo pacman -S budgie --noconfirm
