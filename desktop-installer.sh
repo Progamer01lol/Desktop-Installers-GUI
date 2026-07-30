@@ -12,7 +12,7 @@ CHOICE=$(zenity --list --title="Choose a Desktop" --column="Desktop Environments
         "deepin")
             sudo pacman -S deepin --noconfirm
             ;;
-        "enlightment")
+        "enlightenment")
             sudo pacman -S enlightenment --noconfirm
             ;;
         "gnome")
